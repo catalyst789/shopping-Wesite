@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    color: #fff;
+    padding: 0 50px;
+}
+
+nav #links{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+nav #links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+#background{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#left{
+    width: 35%;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1508855173839-a6d69c12573a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+    background-size: cover;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#overlay #play{
+    opacity: 0;
+    position: absolute;
+    right: -25px;
+    top: 35%;
+    width: 50px;
+    z-index: 999;
+}
+
+#overlay h1{
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 90%;
+    font-size: 42px;
+    /* background-color: red; */
+}
+
+#overlay #report{
+    opacity: 0;
+    position: absolute;
+    left: 10.5%;
+    bottom: 4%;
+    /* transform: translate(-50%, 0); */
+    width: 80%;
+    min-height: 110px;
+    /* background-color: red; */
+}
+
+#overlay #report p{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#overlay #personReport{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#girl{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-image: url(https://images.unsplash.com/photo-1534559529872-1a83a6cbc03d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=362&q=80);
+    background-size: cover;
+}
+
+#details{
+    width: 75%;
+    color: #333;
+    /* background-color: red; */
+}
+
+#personReport #details p{
+    font-size: 8px;
+}
+
+#right{
+    opacity: 0;
+    position: relative;
+    width: 65%;
+    min-height: 100vh;
+    background-color: #22303D;
+}
+
+#rightContent{
+    opacity: 0;
+    position: absolute;
+    bottom: 2%;
+    margin-left: 60px;
+    width: 90%;
+    min-height: 60vh;
+    color: #fff;
+    /* background-color: red; */
+}
+
+#rightContent h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#rightContent p{
+    margin-top: 15px;
+    font-size: 14px;
+    width: 80%;
+}
+
+#rightContent input[type="text"]{
+    width: 50%;
+    padding: 9px 22px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: none;
+    opacity: .5;
+}
+
+#rightContent button{
+    padding: 11px 22px;
+    margin-top: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: #80DAB3;
+    color: #fff;
+    font-weight: 500;
+}
+
+#stories{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 80%;
+    height: 220px;
+    /* background-color: red; */
+}
+
+.story{
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.text{
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+}
+
+#one{
+    background-image: url(https://images.unsplash.com/photo-1540394748912-578b3d2250d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+}
+
+#two{
+    background-image: url(https://images.unsplash.com/photo-1557222111-3f508f4e4fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+}
+
+#three{
+    background-image: url(https://images.unsplash.com/photo-1484932233376-357bc81ad007?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=332&q=80);
+}
+
+
+
+
+
+
